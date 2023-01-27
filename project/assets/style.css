@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 #preload{
     position: fixed;
     width: 100%;
@@ -14,8 +13,6 @@
     background-repeat: no-repeat;
     background-position: center;
    }
-
-
 
 :root{
     --heading-font: 'Roboto Mono', monospace;
@@ -42,7 +39,6 @@ body{
     font-size: 1.5em;
 }
 
-
 .btn-container{
 display: flex;
 width: 100%;
@@ -61,15 +57,15 @@ margin-top: 1.5em;
 
 @media screen and (max-width: 476px) {
     
-    .btn-container{
-        gap: 1em;
+.btn-container{
+    gap: 1em;
     }
 
 .heading{
     font-size: 1.3em;
 }
 
-    .btn-text{
+.btn-text{
         font-size: 1.2em;
     }
 }
